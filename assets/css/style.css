@@ -1,3 +1,77 @@
 /* google fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto&display=swap');
+
+* 
+{ 
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body 
+{
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #090a0a;
+    background-color: #c2dde6;
+}
+
+/* headings and logo */
+
+h1, h2 
+{
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 5px;
+    color: #e05915;
+}
+
+/* code on logo taken from my first project */
+
+#logo 
+{
+ text-align: center;
+ font-size: 280%;
+ padding: 30px;
+ color: #e05915;
+ letter-spacing: 15px;
+ text-decoration: none;
+}
+
+a:link 
+{
+    text-decoration: none;
+}
+
+#site-header
+{
+    border-bottom: none;
+}
+
+/* navigation links */
+/* same structure of nav code as my first project, with altered changes */
+
+.nav ul 
+{
+    list-style: none;
+    background-color: #ff3300;
+    text-align: center;
+    padding: 0;
+    margin: 0; 
+}
+
+.nav li 
+{
+    display: inline-block;
+}
+
+.nav a
+{
+    text-decoration: none;
+    color: #ffffff;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-size:28px;
+}
+
