@@ -56,11 +56,21 @@ const cards = document.querySelectorAll('.flip-card');
 
   cards.forEach(card => card.addEventListener('click', flipCard));
 
-// Shuffle Cards //
+// Shuffle Cards CODE FROM //
 
 (function shuffle() {
     cards.forEach(card => {
       let ramdomPos = Math.floor(Math.random() * 12);
       card.style.order = ramdomPos;
     });
-  })(); 
+  })();
+  
+  // Timer - code taken from stackoverflow//
+
+  var sec = 0;
+    function pad ( val ) { return val > 9 ? val : "0" + val; }
+    setInterval( function(){
+        document.getElementById("seconds").innerHTML=pad(++sec%60);
+        document.getElementById("minutes").innerHTML=pad(parseInt(sec/60,10));
+    }, 1000);
+

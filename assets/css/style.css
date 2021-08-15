@@ -85,6 +85,7 @@ a:link
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
+  padding: 5px;
  
 }
 
@@ -145,10 +146,11 @@ flex-wrap: wrap; */
   backface-visibility: hidden;
 }
 
+/* Timer */
 
-
-/*
-.flip-card:hover 
+.timer
 {
-  transform: rotateY(180deg);
-} */
+  font-size: 70px;
+  position: relative;
+  margin-inline: 100px;
+}
