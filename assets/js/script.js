@@ -1,49 +1,53 @@
 // code on how to match cards taken from Marina Ferreira Youtube video "NAME VIDEO"
 const cards = document.querySelectorAll('.flip-card');
 
-let hasFlippedCard = false;
-let firstCard, secondCard;
+  let hasFlippedCard = false;
+  let lockBoard = false;
+  let firstCard, secondCard;
 
-function flipCard() {
-  /* this.classList.toggle('flip');*/ 
-  this.classList.add('flip');
+  function flipCard() {
+    if (lockBoard) return;
+   if (this === firstCard) return;
 
-  if (!hasFlippedCard) {
-    hasFlippedCard = true;
-    firstCard = this;
-    return;
-  }
-  secondCard = this;
-  hasFlippedCard = false;
+    this.classList.add('flip');
 
-  checkForMatch();
-}
+    if (!hasFlippedCard) {
+      hasFlippedCard = true;
+      firstCard = this;
+      return;
+    }
 
-function checkForMatch() {
-  if (firstCard.dataset.framework === secondCard.dataset.framework) {
-    disableCards();
-    return;
+    secondCard = this;
+
+    checkForMatch();
   }
 
-  unflipCards();
-}
+  function checkForMatch() {
+    let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
+    isMatch ? disableCards() : unflipCards();
+  }
 
-function disableCards() {
-  firstCard.removeEventListener('click', flipCard);
-  secondCard.removeEventListener('click', flipCard);
-}
+  function disableCards() {
+    firstCard.removeEventListener('click', flipCard);
+    secondCard.removeEventListener('click', flipCard);
 
-function unflipCards() {
-  setTimeout(() => {
-    firstCard.classList.remove('flip');
-    secondCard.classList.remove('flip');
-  }, 400);
+   resetBoard();
+  }
 
+  function unflipCards() {
+    lockBoard = true;
+
+    setTimeout(() => {
+      firstCard.classList.remove('flip');
+      secondCard.classList.remove('flip');
+
+     resetBoard();
+    }, 600);
+  }
+
+ function resetBoard() {
+   [hasFlippedCard, lockBoard] = [false, false];
+   [firstCard, secondCard] = [null, null];
  }
 
-
-
-
-
-
-cards.forEach(card => card.addEventListener('click', flipCard));
+  cards.forEach(card => card.addEventListener('click', flipCard));
