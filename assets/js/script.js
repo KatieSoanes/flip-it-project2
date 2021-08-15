@@ -1,9 +1,13 @@
-// code on how to match cards taken from Marina Ferreira Youtube video "NAME VIDEO"
+// code on how to match cards taken from Marina Ferreira (freeCodeCamp.Org) Youtube video: "Memory Card Game-JavaScript Tutorial"
+
+
+// Match cards by data type, same card click (prevent card getting stuck if double clicked) and lock-board// 
 const cards = document.querySelectorAll('.flip-card');
 
   let hasFlippedCard = false;
   let lockBoard = false;
   let firstCard, secondCard;
+ 
 
   function flipCard() {
     if (lockBoard) return;
@@ -51,3 +55,12 @@ const cards = document.querySelectorAll('.flip-card');
  }
 
   cards.forEach(card => card.addEventListener('click', flipCard));
+
+// Shuffle Cards //
+
+(function shuffle() {
+    cards.forEach(card => {
+      let ramdomPos = Math.floor(Math.random() * 12);
+      card.style.order = ramdomPos;
+    });
+  })(); 
