@@ -71,4 +71,14 @@ const cards = document.querySelectorAll('.flip-card');
       window.location.reload(true);
     }); 
 
+    //Congratulations Pop up message when board is completed 
+    //modal
+let modal = document.getElementById("popup1")
+function congratulations(){
+    if (matchedCard.length == 16){
+    modal.classList.add("show");
+    closeModal();
+    };
+}
 
+//Timer 
