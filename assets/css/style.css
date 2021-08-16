@@ -157,7 +157,7 @@ flex-wrap: wrap; */
 
 /*Buttons Start and Restart*/
 
-/* .reset-btn
+#reload
 {
   font-size: 40px;
   font-weight: bold;
@@ -167,6 +167,6 @@ flex-wrap: wrap; */
   color: white;
   outline: none;
   height: 60px;
-}*/
+}
 
 
