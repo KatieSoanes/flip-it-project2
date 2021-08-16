@@ -148,9 +148,25 @@ flex-wrap: wrap; */
 
 /* Timer */
 
-.timer
+/*.timer
 {
   font-size: 70px;
   position: relative;
   margin-inline: 100px;
-}
+}*/
+
+/*Buttons Start and Restart*/
+
+/* .reset-btn
+{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: pink;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  height: 60px;
+}*/
+
+

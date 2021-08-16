@@ -1,6 +1,5 @@
+
 // code on how to match cards taken from Marina Ferreira (freeCodeCamp.Org) Youtube video: "Memory Card Game-JavaScript Tutorial"
-
-
 // Match cards by data type, same card click (prevent card getting stuck if double clicked) and lock-board// 
 const cards = document.querySelectorAll('.flip-card');
 
@@ -56,7 +55,7 @@ const cards = document.querySelectorAll('.flip-card');
 
   cards.forEach(card => card.addEventListener('click', flipCard));
 
-// Shuffle Cards CODE FROM //
+// Shuffle Cards CODE FROM Youtube Mar//
 
 (function shuffle() {
     cards.forEach(card => {
@@ -64,13 +63,12 @@ const cards = document.querySelectorAll('.flip-card');
       card.style.order = ramdomPos;
     });
   })();
-  
-  // Timer - code taken from stackoverflow//
 
-  var sec = 0;
-    function pad ( val ) { return val > 9 ? val : "0" + val; }
-    setInterval( function(){
-        document.getElementById("seconds").innerHTML=pad(++sec%60);
-        document.getElementById("minutes").innerHTML=pad(parseInt(sec/60,10));
-    }, 1000);
+ //Reset game
+ // Code inspired by Junior Developer Central - How to refresh/reload a page with JavaScript Youtube tutorial.
+    document.querySelector('#reload')
+    document.querySelector('#reload').addEventListener('click', () => {
+      window.location.reload(true);
+    }); 
+
 
