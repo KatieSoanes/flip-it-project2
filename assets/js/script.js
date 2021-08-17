@@ -81,4 +81,20 @@ function congratulations(){
     };
 }
 
-//Timer 
+//Timer code inspired by stackoverflow
+
+
+var myTimer;
+function clock() {
+     myTimer = setInterval(myClock, 1000);
+     var c = 60;
+
+     function myClock() {
+       document.getElementById("timer").innerHTML = --c;
+       if (c == 0) {
+         clearInterval(myTimer);
+         alert("Oh no! You have run out of time");
+       }
+     }
+   }
+

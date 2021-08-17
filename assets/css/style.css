@@ -170,3 +170,24 @@ flex-wrap: wrap; */
 }
 
 
+#timer
+{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  outline: none;
+  height: 60px;
+}
+
+#clock 
+{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: pink;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  height: 60px;
+}
