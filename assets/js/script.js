@@ -93,8 +93,13 @@ function clock() {
        document.getElementById("timer").innerHTML = --c;
        if (c == 0) {
          clearInterval(myTimer);
-         alert("Oh no! You have run out of time");
+         alert("Oh no, times up! You can continue this round untimed or click Reset to start again");
        }
      }
    }
+
+  // Rules of Game based on VIDEO
+
+  
+
 
