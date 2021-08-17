@@ -192,13 +192,14 @@ flex-wrap: wrap; */
   height: 60px;
 }
 
+/* RULES vido code */
+
 .rules 
   {
     position: fixed;
     top: 35%;
     left:32%;
-    transform: TransformStreamDefaultController(-50%, -50%);
-    border: 1px solid black;
+    transform: translate(-50%, -50%) scale(0);
     border-radius: 10px;
     z-index: 10;
     background-color: white;
@@ -206,7 +207,7 @@ flex-wrap: wrap; */
     max-width: 80%; 
     
   }
-
+  
   .rules-header
   {
     padding: 10px 15px;
@@ -216,7 +217,14 @@ flex-wrap: wrap; */
     border-bottom: 1px solid black;
   }
 
-  .rules-header, .close-button
+  .rules-header, .title
+  {
+    font-size: 1.25rem;
+    font-weight: bold;
+
+  }
+  
+  .rules-header .close-button
   {
     cursor: pointer;
     border: none;
@@ -224,17 +232,10 @@ flex-wrap: wrap; */
     background: none;
     font-size: 1.25rem;
     font-weight: bold;
-
   }
 
   .rules-body
   {
     padding: 10px 15px;
-  }
 
-  #overlay 
-  {
-    position: fixed;
-    /* opacity: 0; */
   }
- 
