@@ -101,6 +101,9 @@ function clock() {
      }
    }
 
-  // Rules of Game
+  //Congratulations You Won 
 
+ 
   
+
+   
