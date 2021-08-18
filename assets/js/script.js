@@ -101,9 +101,11 @@ function clock() {
      }
    }
 
-  //Congratulations You Won 
+  //Congratulations You Won -- not working to SOLVE!!
 
- 
-  
+  function congratulations(){
+  if (matchedCard.length == 16){
+    window.alert("Congratulations! You Won!");
+}
+  }
 
-   
