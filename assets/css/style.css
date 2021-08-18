@@ -1,12 +1,12 @@
 /* google fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap'); 
 
 * 
 { 
     margin: 0;
     padding: 0;
-    /*border: none;*/ 
     box-sizing: border-box;
 }
 body 
@@ -19,62 +19,28 @@ body
 
 /* headings and logo */
 
-h1, h2 
+h1
 {
-    text-transform: uppercase;
-    font-family: Roboto, sans-serif;
-    letter-spacing: 5px;
-    color: #e05915;
+  text-transform: uppercase;
+  font-family: Lato, sans-serif;
+  letter-spacing: 5px;
 }
-
-/* code on logo taken from my first project */
 
 #logo 
 {
  text-align: center;
- font-size: 280%;
+ font-size: 80px;
  padding: 30px;
  color: #e05915;
- letter-spacing: 15px;
+ letter-spacing: 10px;
  text-decoration: none;
-}
-
-a:link 
-{
-    text-decoration: none;
+ font-family: Knewave, sans-serif;
 }
 
 #site-header
 {
     border-bottom: none;
 }
-
-/* navigation links */
-/* same structure of nav code as my first project, with altered changes */
-
-/*.nav ul 
-{
-    list-style: none;
-    background-color: #ff3300;
-    text-align: center;
-    padding: 0;
-    margin: 0; 
-}
-
-.nav li 
-{
-    display: inline-block;
-}
-
-.nav a
-{
-    text-decoration: none;
-    color: #ffffff;
-    width: 100px;
-    display: block;
-    padding: 15px;
-    font-size:28px;
-}/*
 
 /* The alert message box */
 .alert {
@@ -83,9 +49,10 @@ a:link
   color: white;
   margin-left: 150px;
   margin-right: 150px;
+  margin-top: -300px;
 }
 
-/* The close button */
+/* The close button for alert box */
 .closebtn {
   margin-left: 15px;
   color: white;
@@ -112,6 +79,7 @@ a:link
   flex-wrap: wrap;
   perspective: 1000px;
   padding: 5px;
+  margin-top: -140px;
  
 }
 
@@ -122,9 +90,6 @@ height: 640px;
 margin: auto;
 transform-style: preserve-3d;
 transition: all 0.5s ease;
-/*display: flex;
-flex-wrap: wrap; */
-
 }
 
 /*Marina code */ 
@@ -189,12 +154,11 @@ flex-wrap: wrap; */
 
 #timer
 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
-  padding: 10px 20px;
-  color: white;
-  outline: none;
-  height: 60px;
+  margin-left: 682px;
+  margin-top: -20px;
+  padding: 10px;
 }
 
 #clock 
@@ -214,7 +178,7 @@ flex-wrap: wrap; */
 {
     position: relative;
     height: 100px;
-    margin-top: -100px;
+    margin-top: 200px;  
     clear: both;
     background-color: #e5b9a8;
 }
@@ -222,7 +186,7 @@ flex-wrap: wrap; */
 .footer-bottom
 {
     background-color: #e5b9a8;
-    color: #4a5fc1;
+    color: black;
     width: 100vw;
     padding: 0;
     text-align: center;
@@ -231,4 +195,5 @@ flex-wrap: wrap; */
 .footer-bottom p
 {
     word-spacing: 2px;
+    font-size: 20px;
 }
