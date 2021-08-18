@@ -146,15 +146,6 @@ flex-wrap: wrap; */
   backface-visibility: hidden;
 }
 
-/* Timer */
-
-/*.timer
-{
-  font-size: 70px;
-  position: relative;
-  margin-inline: 100px;
-}*/
-
 /*Buttons Start and Restart*/
 
 #reload
@@ -194,48 +185,28 @@ flex-wrap: wrap; */
 
 /* RULES vido code */
 
-.rules 
-  {
-    position: fixed;
-    top: 35%;
-    left:32%;
-    transform: translate(-50%, -50%) scale(0);
-    border-radius: 10px;
-    z-index: 10;
-    background-color: white;
-    width: 500px;
-    max-width: 80%; 
-    
-  }
-  
-  .rules-header
-  {
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
-  }
+/* The alert message box */
+.alert {
+  padding: 80px;
+  background-color: pink;
+  color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+}
 
-  .rules-header, .title
-  {
-    font-size: 1.25rem;
-    font-weight: bold;
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
-  }
-  
-  .rules-header .close-button
-  {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-
-  .rules-body
-  {
-    padding: 10px 15px;
-
-  }
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}

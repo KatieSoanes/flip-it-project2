@@ -98,8 +98,6 @@ function clock() {
      }
    }
 
-  // Rules of Game based on VIDEO
+  // Rules of Game
 
   
-
-
