@@ -1,4 +1,12 @@
 
+ //Reset game button
+ // Code inspired by Junior Developer Central - How to refresh/reload a page with JavaScript Youtube tutorial.
+ document.querySelector('#reload')
+ document.querySelector('#reload').addEventListener('click', () => {
+   window.location.reload(true);
+ }); 
+
+
 // code on how to match cards taken from Marina Ferreira (freeCodeCamp.Org) Youtube video: "Memory Card Game-JavaScript Tutorial"
 // Match cards by data type, same card click (prevent card getting stuck if double clicked) and lock-board// 
 const cards = document.querySelectorAll('.flip-card');
@@ -64,12 +72,7 @@ const cards = document.querySelectorAll('.flip-card');
     });
   })();
 
- //Reset game
- // Code inspired by Junior Developer Central - How to refresh/reload a page with JavaScript Youtube tutorial.
-    document.querySelector('#reload')
-    document.querySelector('#reload').addEventListener('click', () => {
-      window.location.reload(true);
-    }); 
+
 
     //Congratulations Pop up message when board is completed 
     //modal
