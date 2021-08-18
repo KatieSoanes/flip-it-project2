@@ -52,7 +52,7 @@ a:link
 /* navigation links */
 /* same structure of nav code as my first project, with altered changes */
 
-.nav ul 
+/*.nav ul 
 {
     list-style: none;
     background-color: #ff3300;
@@ -74,6 +74,32 @@ a:link
     display: block;
     padding: 15px;
     font-size:28px;
+}/*
+
+/* The alert message box */
+.alert {
+  padding: 80px;
+  background-color: pink;
+  color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
 }
 
 /* styling of game grid */  
@@ -183,30 +209,5 @@ flex-wrap: wrap; */
   height: 60px;
 }
 
-/* RULES vido code */
+/* RULES */
 
-/* The alert message box */
-.alert {
-  padding: 80px;
-  background-color: pink;
-  color: white;
-  margin-left: 150px;
-  margin-right: 150px;
-}
-
-/* The close button */
-.closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-/* When moving the mouse over the close button */
-.closebtn:hover {
-  color: black;
-}
