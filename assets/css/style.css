@@ -17,6 +17,7 @@ body
     background-color: #bde0fe;
 }
 
+
 /* headings and logo */
 
 h1
@@ -249,3 +250,21 @@ padding: 10px;
 color: black;
 letter-spacing: 5px;
 }
+
+.button /* TO FIXXXXXX game rules*/ 
+{
+  font-weight: bold;
+    padding: 10px 20px;
+    background-color: pink;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    bottom: 250px;
+    text-align: center;
+    left: 0px;
+    font-size: 40px;
+    top: 100px;
+}
+
+/* POP UP WINDOW BEGINNING CODE */
+

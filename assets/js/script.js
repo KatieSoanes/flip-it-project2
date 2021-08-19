@@ -1,3 +1,4 @@
+//Welcome TO DO
 
  //Reset game button
  // Code inspired by Junior Developer Central - How to refresh/reload a page with JavaScript Youtube tutorial.
@@ -117,3 +118,9 @@ function on() {
 function off() {
   document.getElementById("overlay").style.display = "none";
 }
+
+// Pop up window beginning 
+
+
+   
+ 
