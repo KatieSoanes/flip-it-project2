@@ -109,3 +109,11 @@ function clock() {
 }
   }
 
+//WEBSCHOOL Rules of Game
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}

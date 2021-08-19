@@ -24,7 +24,9 @@
       <button id="reload">Reset Cards</button>
     </div>
  
-<div class="alert">
+
+  
+<!--<div class="alert" ALERT TO GO>
   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
   <ul>
     <h1>HOW TO PLAY FLIP IT</h1>
@@ -34,7 +36,8 @@
     <li>Click Reset to shuffle the board and begin a new game</li>
     <li>Click Start Timer if you would like to play the round whilst being timed</li>
   </ul>
-</div>
+</div>-->
+
     
 <!--Grid and card structure--> 
 
@@ -149,7 +152,24 @@
   </footer>
 
       
+<!--Rules of the Game-->
+<div id="overlay" onclick="off()">
+  <div id="text"><h4>How to Play Flip It</h4>
+  <ul>
+  <li>Aim of the game is to match all the pairs</li>
+    <li>Click a card to reveal the image underneath, then click another card to try and find the matching image</li>
+    <li>Once pairs are found they will remain open on the page</li>
+    <li>Click <b>Reset Cards</b> to shuffle the board and begin a new game</li>
+    <li>Click <b>Start Timer</b> if you would like to play the round whilst being timed</li>
+    <br>
+    <p>Click anywhere on this page to get to the game</p>
+    <p>GOOD LUCK!</p>
+  </ul></div>
+</div>
 
+<div style="padding:20px">
+  <button onclick="on()">Game Rules</button>
+</div>
 
     
     <script src="assets/js/script.js"></script>

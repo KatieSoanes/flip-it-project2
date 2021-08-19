@@ -206,3 +206,46 @@ transition: all 0.5s ease;
     word-spacing: 2px;
     font-size: 20px;
 }
+
+/* Rules of Game*/
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4fe3d5;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font-size: 15px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+h4 
+{
+  font-size: 40px;
+    text-align: center;
+    margin: 10px;
+    color: black;
+    letter-spacing: 5px;
+    padding-top: 5px;
+}
+
+ul
+{
+font-size: 20px;
+padding: 10px;
+color: black;
+letter-spacing: 5px;
+}
