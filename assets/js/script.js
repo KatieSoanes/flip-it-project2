@@ -1,4 +1,7 @@
 //Welcome TO DO
+function myFunction(){
+  alert("Page is loaded");
+}
 
  //Reset game button
  // Code inspired by Junior Developer Central - How to refresh/reload a page with JavaScript Youtube tutorial.
@@ -119,7 +122,14 @@ function off() {
   document.getElementById("overlay").style.display = "none";
 }
 
-// Pop up window beginning 
+//Win Game to fix 
+
+function winGame(){
+  if (isMatch === 16){
+     alert("Congratulations! You Won!");
+  }
+ }
+
 
 
    
