@@ -43,7 +43,7 @@ h1
     border-bottom: none;
 }
 
-/* The alert message box */
+/* The alert message box STYLING FOR POP UP BOX I TRIED ACCIDENTALLY DELETED HTML PART DIDN'T PUSH TO GIT
 .alert {
   padding: 80px;
   background-color: pink;
@@ -53,7 +53,7 @@ h1
   margin-top: -300px;
 }
 
-/* The close button for alert box */
+The close button for alert box 
 .closebtn {
   margin-left: 15px;
   color: white;
@@ -65,10 +65,10 @@ h1
   transition: 0.3s;
 }
 
-/* When moving the mouse over the close button */
+When moving the mouse over the close button 
 .closebtn:hover {
   color: black;
-}
+}*/
 
 /* styling of game grid */  
 .game
@@ -251,7 +251,7 @@ color: black;
 letter-spacing: 5px;
 }
 
-.button /* TO FIXXXXXX game rules*/ 
+.button /* TO FIXXXXXX WONT LINK TO THE BUTTON OF GAME RULES*/ 
 {
   font-weight: bold;
     padding: 10px 20px;
@@ -266,5 +266,5 @@ letter-spacing: 5px;
     top: 100px;
 }
 
-/* POP UP WINDOW BEGINNING CODE */
+
 
