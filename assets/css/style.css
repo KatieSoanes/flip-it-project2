@@ -238,14 +238,14 @@ button {
 
 .modal-btn 
 {
-  font: inherit;
-  background-color: pink; 
-  border: 1px solid pink;
+  background-color: turquoise;
+  border: while;
   padding: 8px 24px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 5px;
   color: white;
   margin-top: 16px;
+  font-size: 25px;
 }
   
   
@@ -262,11 +262,6 @@ button {
   top: 20vh;
   left: calc(50% - 15rem);
   } 
-  
-
-  
-  
-  
   
   .backgroundDisplay
   {
@@ -301,22 +296,90 @@ button {
     #timer{
       padding: 40px;
     }
+     /*note h4 purposely gone on this screen size to fit aesthetically*/ 
+    h4
+    {
+      margin-top: 100px;
+     padding: 0px;
+    }
+
+    ul
+    {
+      font-size: 10px;
+      letter-spacing: 0px;
+    }
     
    
   }
 
 
   @media all and (max-width: 668px) and (min-width: 321px){
+    .game {
+      width: 300px; 
+    }
+    #reload {
+      left: 0px;
+      font-size: 20px;
+    }
+    .show-game-rules{
+      margin-left: 0px;
+      font-size: 20px;
+      left: 140px;
+      margin-top: 23px;
+    }
+    
+    #timer{
+      padding: 40px;
+    }
+    
+    h4
+    {
+      margin-top: 50px;
+     padding: 0px;
+    }
 
+    ul
+    {
+      font-size: 10px;
+      letter-spacing: 0px;
+    }
+   
   }
 
   @media all and (max-width: 1024px) and (min-width: 669px){
-
+    .game {
+      width: 300px; 
+    }
+    
+    #timer{
+      padding: 40px;
+    }
+    
+    #reload {
+      left: 180px;
+      font-size: 20px;
+    }
+    .show-game-rules{
+      margin-left: 0px;
+      font-size: 20px;
+      left: 320px;
+      margin-top: 23px;
+    }
+    
+    h4 {
+      margin-top: 100px;
+    }
+   
   }
+
 
   @media all and (max-width: 1210px) and (min-width: 901px){
     .show-game-rules {
-     left: 160px; 
+     left: 450px; 
      margin-left: 0px;
+    }
+    #reload {
+      left: 290px;
+      font-size: 20px;
     }
   }
