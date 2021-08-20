@@ -1,18 +1,13 @@
 
 
-// new variables
+// Variables
 
 let noOfMatches = 0
-
 let currentTime = 60
-
 let gameOn = true
 
 
-
-
 let modalDisplay
-
 let backgroundDisplay
 
 
@@ -20,8 +15,8 @@ let backgroundDisplay
 
 //Reset game button
 
-// Code inspired by Junior Developer Central - How to refresh/reload a page with JavaScript Youtube tutorial.
-
+// Code inspired by How To Refresh/Reload A Page With JavaScript by Junior Developer Central 
+// https://www.youtube.com/watch?v=5hLbCC2YPu0 
 document.querySelector('#reload')
 
 document.querySelector('#reload').addEventListener('click', () =>

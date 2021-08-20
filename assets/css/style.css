@@ -44,13 +44,15 @@ h1
 }
 
 p{
-  font-size: 20px;
+  font-size: 30px;
     text-align: center;
     font-family: Knewave, sans-serif;
     margin-bottom: 20px;
+    color: black;
 }
 
 /* styling of game grid */  
+
 .game
 {
   width: 450px;
@@ -76,12 +78,12 @@ transition: all 0.5s ease;
 }
 
 /*Marina code youtube video to reference */ 
+
 .flip-card {
   width: calc(25% - 10px);
   height: calc(33.333% - 10px);
   margin: 5px;
   position: relative;
-  /* new */ 
   transform-style: preserve-3d;
   transform: scale(1);
   transform-style: preserve-3d; 
@@ -100,6 +102,7 @@ transition: all 0.5s ease;
 }
 
 /* CSS FLIP CARD YOUTUBE */ 
+
 .front
 {
   position: absolute;
@@ -172,6 +175,7 @@ transition: all 0.5s ease;
 }
 
 /* Rules of Game*/
+
 #overlay {
   position: fixed;
   display: none;
@@ -248,9 +252,6 @@ button {
   font-size: 25px;
 }
   
-  
-  
-  
   .modalDisplay 
   {
   background-color: white;
@@ -275,8 +276,6 @@ button {
   }
 
   /* Media Queries */
-
- 
 
   @media all and (max-width: 320px){
     .game {

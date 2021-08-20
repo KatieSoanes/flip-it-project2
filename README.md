@@ -97,7 +97,11 @@ https://validator.w3.org/
 
 1. index.html 
 
+<img width="1311" alt="Screenshot 2021-08-20 at 23 42 01" src="https://user-images.githubusercontent.com/84447603/130300933-4def74ef-819e-4ce2-8985-5d1b8866e3a0.png">
+<img width="977" alt="Screenshot 2021-08-20 at 23 42 11" src="https://user-images.githubusercontent.com/84447603/130300942-a162672c-5ef8-47e6-8139-230ee92c862f.png">
 
+* All the errors rectified- No errors presented
+<img width="1436" alt="Screenshot 2021-08-20 at 23 57 39" src="https://user-images.githubusercontent.com/84447603/130300949-4f1fc035-1bf0-4de9-a5c1-b3acdbddacc1.png">
 
 
 
@@ -106,7 +110,18 @@ https://validator.w3.org/
 
 
 ## CSS
-<img width="1423" alt="Screenshot 2021-07-12 at 10 44 52" src="https://user-images.githubusercontent.com/84447603/125266949-3ee99c80-e2fe-11eb-90b1-b5d918572bfe.png">
+Tested code bye running it through:
+https://jigsaw.w3.org/css-validator/validator. 
+* According to stack overflow the first two errors are not actual errors, it is just information that the validator is not going to validate the imported style sheet. (reference: https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error). 
+* Line 200 code is taken from freeCodeCamp.org Youtube video (Memory Card Game-JavaScript Tutorial https://www.youtube.com/watch?v=ZniVgo8U7ek). 
+<img width="1433" alt="Screenshot 2021-08-21 at 00 03 03" src="https://user-images.githubusercontent.com/84447603/130301254-8433e2d9-0ba8-44ab-adb0-9b207e09d30c.png">
+
+
+
+
+
+
+
 
 # Testing accessibility
 * Tested via https://wave.webaim.org/

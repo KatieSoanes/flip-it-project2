@@ -19,6 +19,7 @@
   <header>
      
         <h1 id="logo">FLIP IT</h1> 
+  </header>
   
 <div class="intro">
 
@@ -43,18 +44,20 @@
       
 <!--Reset Button-->
 
-<!--BUTTON inspired by Build A Quiz APP WITH JAVA-->
+<!--BUTTON inspired by Build A Quiz App with JavaScript : https://www.youtube.com/watch?v=riDzcEQbX6k -->
     <div id="controls">
       <button id="reload">Reset Cards</button>
     </div>
 
     
-<!--Grid and card structure--> 
+<!--Grid and card structure for game--> 
+<!--Code based on Memory Card Game - JavaScript Tutorial : https://www.youtube.com/watch?v=ZniVgo8U7ek-->
+<!-- below is given date-framework to check if data matches when flipped-->
 
-<!-- given date-framework to check if data matches when flipped-->
+<h2 style="display: none;">empty heading for validation error msg</h2>
 
 <section class="game">
-     
+  <h2 style="display: none;">empty heading for validation error msg</h2> 
     <div class="flip-card" data-framework="cow">
             <img class="front" src="assets/images/frontimage.png" alt= "icon image of turquoise playing card with yellow heart in center">
             <img class="back" src="assets/images/cow.png" alt="icon image of cow">
@@ -153,28 +156,32 @@
         </div>
       
 <!--Rules of the Game-->
+
 <div id="overlay" onclick="off()">
   <div id="text"><h4>How to Play Flip It</h4>
   <ul>
-  <li>Aim of the game is to match all the pairs as quick as you can</li>
-    <li>Click a card to reveal the image underneath, <br>
-      then click another card to try and find the matching image</li>
-      <li>Once you click the first card, the timer will begin</li>
+    <li>Aim of the game is to match all the pairs as quick as you can</li>
+    <li>Click a card to reveal the image underneath,
+    then click another card to try and find the matching image</li>
+    <li>Once you click the first card, the timer will begin</li>
     <li>Once pairs are found they will remain open on the page</li>
     <li>After each round click Reset Cards, to shuffle the deck</li>
-    <br>
+    </ul>
     <p>Click anywhere on this page to get to the game</p>
-    <p>So off you go, go and get matching</p>
+    <p>So off you go, it's time to get matching!</p>
     <br>
     <p>GOOD LUCK!</p>
-  </ul></div>
+  </div>
 </div>
+
+<!--Game Rules button to click and open overlay-->
 
 <div style="padding:20px">
-  <button class="show-game-rules" onclick="on()">Game Rules</button>
+    <button class="show-game-rules" onclick="on()">Game Rules</button>
 </div>
 
- <!--<div>score</div>-->
+ <!--Footer based on my previous project code (from Love Running Project)-->
+
  <footer id="footer"> 
   <div class="footer-bottom">
       <p>© Copyright 2021 Katie Soanes</p>
@@ -182,10 +189,7 @@
       <a href="https://icons8.com/icons" target="_blank" rel="noopener" aria-label="Visit Icon8 - images are from here (opens in new tab)">Images supplied by Icon8</a>
   </div>
   </footer>
- 
-
-    
-    <script src="assets/js/script.js"></script>
+ <script src="assets/js/script.js"></script>
 
 </body>
 </html>
