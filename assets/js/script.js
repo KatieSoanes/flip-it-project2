@@ -294,46 +294,6 @@ return
 }
 
 
-
-
-//Congratulations Pop up message when board is completed - NOT WORKING
-
-//modal
-
-// let modal = document.getElementById('popup1')
-
-// function congratulations() {
-
-// if (matchedCard.length == 16) {
-
-// modal.classList.add('show')
-
-// closeModal()
-
-// }
-
-// }
-
-
-
-
-// NOTE: isMatch is a boolean value; it won't equal 16
-
-// NOTE: isMatch was declared with the "let" keyword inside of a function, which only allows it to be used inside of that function
-
-// function winGame() {
-
-// if (isMatch === 16) {
-
-// alert('Congratulations! You Won!')
-
-// }
-
-// }
-
-
-
-
 //WEBSCHOOL Rules of Game
 
 function on() {
