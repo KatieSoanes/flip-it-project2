@@ -44,10 +44,10 @@ h1
 }
 
 p{
-  font-size: 30px;
-  text-align: center;
-  font-family: Knewave, sans-serif;
-  margin-bottom: 20px;
+  font-size: 20px;
+    text-align: center;
+    font-family: Knewave, sans-serif;
+    margin-bottom: 20px;
 }
 
 /* styling of game grid */  
@@ -198,20 +198,21 @@ transition: all 0.5s ease;
 
 h4 
 {
-  font-size: 40px;
-    text-align: center;
-    margin: 10px;
+  font-size: 50px;
+    margin: 5px;
     color: black;
     letter-spacing: 5px;
-    padding-top: 5px;
+    padding-top: 60px;
+    text-align: center;
 }
 
 ul
 {
-font-size: 20px;
-padding: 10px;
-color: black;
-letter-spacing: 5px;
+  font-size: 15px;
+  padding: 10px;
+  color: black;
+  letter-spacing: 5px;
+  font-weight: bold;
 }
 
 .show-game-rules 
@@ -280,8 +281,28 @@ button {
 
   /* Media Queries */
 
-  @media all and (max-width: 320px){
+ 
 
+  @media all and (max-width: 320px){
+    .game {
+      width: 300px; 
+    }
+    #reload {
+      left: 0px;
+      font-size: 20px;
+    }
+    .show-game-rules{
+      margin-left: 0px;
+      font-size: 20px;
+      left: 140px;
+      margin-top: 23px;
+    }
+    
+    #timer{
+      padding: 40px;
+    }
+    
+   
   }
 
 
@@ -290,5 +311,12 @@ button {
   }
 
   @media all and (max-width: 1024px) and (min-width: 669px){
-    
+
+  }
+
+  @media all and (max-width: 1210px) and (min-width: 901px){
+    .show-game-rules {
+     left: 160px; 
+     margin-left: 0px;
+    }
   }
