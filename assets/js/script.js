@@ -113,11 +113,7 @@ function winGame(){
   }
  }
 
- document.getElementsByClassName("game"){
-   if (isMatch === 16){
-     alert("You won")
-   }
- }
+
 
 //WEBSCHOOL Rules of Game
 function on() {
