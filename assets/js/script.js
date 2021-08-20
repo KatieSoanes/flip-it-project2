@@ -1,7 +1,7 @@
-//Welcome TO DO
-function myFunction(){
-  alert("Page is loaded");
-}
+//Welcome TO ALERT NOT TO BE USED
+//function myFunction(){
+ // alert("Page is loaded");
+//}
 
  //Reset game button
  // Code inspired by Junior Developer Central - How to refresh/reload a page with JavaScript Youtube tutorial.
@@ -76,18 +76,6 @@ const cards = document.querySelectorAll('.flip-card');
     });
   })();
 
-
-
-    //Congratulations Pop up message when board is completed 
-    //modal
-let modal = document.getElementById("popup1")
-function congratulations(){
-    if (matchedCard.length == 16){
-    modal.classList.add("show");
-    closeModal();
-    };
-}
-
 //Timer code inspired by stackoverflow
 
 
@@ -105,13 +93,31 @@ function clock() {
      }
    }
 
-  //Congratulations You Won -- not working to SOLVE!!
 
-  function congratulations(){
-  if (matchedCard.length == 16){
-    window.alert("Congratulations! You Won!");
+
+
+
+  //Congratulations Pop up message when board is completed -  NOT WORKING
+    //modal
+let modal = document.getElementById("popup1")
+function congratulations(){
+    if (matchedCard.length == 16){
+    modal.classList.add("show");
+    closeModal();
+    };
 }
+
+function winGame(){
+  if (isMatch === 16){
+     alert("Congratulations! You Won!");
   }
+ }
+
+ document.getElementsByClassName("game"){
+   if (isMatch === 16){
+     alert("You won")
+   }
+ }
 
 //WEBSCHOOL Rules of Game
 function on() {
@@ -122,13 +128,9 @@ function off() {
   document.getElementById("overlay").style.display = "none";
 }
 
-//Win Game to fix 
 
-function winGame(){
-  if (isMatch === 16){
-     alert("Congratulations! You Won!");
-  }
- }
+
+
 
 
 
