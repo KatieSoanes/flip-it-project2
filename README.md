@@ -4,8 +4,6 @@
 
 # FLIP IT 
 
-RESPONSIVE IMAGERY HERE 
-
 # Opening message: 
 **FLIP IT** FLIP IT, is a memory based (timed) card game/puzzle. The aim of the game: Once the first card is flipped the timer starts and you have 60 seconds to flip over the cards and try and find the matching imagery. If you do not find a matching pair the cards are flipped back over and this gives you a chance to remember where the cards are for future selection within the game. When the time is up a modal pops up to let the user know the time is up and how many cards they flipped. If the user matches all cards within the time frame then a Congratulations modal pops up, telling the user 
 
