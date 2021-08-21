@@ -116,6 +116,13 @@ https://jigsaw.w3.org/css-validator/validator.
 * Line 200 code is taken from freeCodeCamp.org Youtube video (Memory Card Game-JavaScript Tutorial https://www.youtube.com/watch?v=ZniVgo8U7ek). 
 <img width="1433" alt="Screenshot 2021-08-21 at 00 03 03" src="https://user-images.githubusercontent.com/84447603/130301254-8433e2d9-0ba8-44ab-adb0-9b207e09d30c.png">
 
+## JavaScript 
+Tested code by running through https://jshint.com/
+
+<img width="1389" alt="Screenshot 2021-08-21 at 00 41 05" src="https://user-images.githubusercontent.com/84447603/130303660-5c13b735-2f02-4d8b-ad50-955e4c6fba3a.png">. 
+* Solved issued by following https://www.codegrepper.com/code-examples/javascript/%27esversion%3A+6%27+javascript advice.
+<img width="1234" alt="Screenshot 2021-08-21 at 00 58 18" src="https://user-images.githubusercontent.com/84447603/130303663-3232df58-4baa-45eb-a814-98fd9992d8e9.png">
+
 
 
 
@@ -130,142 +137,74 @@ https://jigsaw.w3.org/css-validator/validator.
 
 # Testing Responsive Imagery
 
-## Tested and altered Media queries to fit Iphone
-<img width="438" alt="Screenshot 2021-07-13 at 02 16 51" src="https://user-images.githubusercontent.com/84447603/125375288-b7913d00-e380-11eb-87cc-93863156c6e5.png">
+## Tested and altered Media queries to fit various media queries
+<img width="436" alt="Screenshot 2021-08-21 at 01 05 31" src="https://user-images.githubusercontent.com/84447603/130303905-63238fa2-16a2-4173-90f8-1247f4b6242a.png">. 
+<img width="379" alt="Screenshot 2021-08-21 at 01 04 39" src="https://user-images.githubusercontent.com/84447603/130303909-b612323d-e432-4676-81c7-2db8453b7863.png">. 
+<img width="398" alt="Screenshot 2021-08-21 at 01 03 58" src="https://user-images.githubusercontent.com/84447603/130303914-31d1212c-a8c2-4761-9f64-93ec0e83cc22.png">. 
 
-<img width="388" alt="Screenshot 2021-07-13 at 02 17 09" src="https://user-images.githubusercontent.com/84447603/125375298-ba8c2d80-e380-11eb-890c-24083deea5d7.png">
 
-<img width="380" alt="Screenshot 2021-07-13 at 02 18 15" src="https://user-images.githubusercontent.com/84447603/125375303-bcee8780-e380-11eb-94f4-a40eacf9c154.png">
 
-## Tested and altered to fit IPAD screen
 
-<img width="384" alt="Screenshot 2021-07-13 at 03 07 32" src="https://user-images.githubusercontent.com/84447603/125378983-9e3fbf00-e387-11eb-8913-3e25e24f2b5f.png">
 
-## Tested and altered to fit desktop screen
-To do this I tested on different browsers: incognito window, chrome, and safari. I also sent the link to my mobile device.
 
-# Lighthouse
-* mobile
 
-<img width="455" alt="Screenshot 2021-07-13 at 04 56 52" src="https://user-images.githubusercontent.com/84447603/125388113-d3074280-e396-11eb-8de2-8a9d42b11e3e.png">
 
-* desktop
-<img width="457" alt="Screenshot 2021-07-13 at 04 54 29" src="https://user-images.githubusercontent.com/84447603/125387898-80c62180-e396-11eb-988e-4dbd82bb1c29.png">
 
+# Lighthouse Testing Results
+
+<img width="420" alt="Screenshot 2021-08-21 at 01 07 43" src="https://user-images.githubusercontent.com/84447603/130303963-3a31b258-d065-455e-8304-86ba11823168.png">. 
+
+<img width="415" alt="Screenshot 2021-08-21 at 01 07 32" src="https://user-images.githubusercontent.com/84447603/130303964-71e5132e-273a-461c-96e9-4b47f71933ef.png">
 
 
 # Wireframes
 
 Below is a rough sketch I made to plan each page. 
 
-![home page](https://user-images.githubusercontent.com/84447603/125380025-7b160f00-e389-11eb-952d-ac32565a00d8.jpeg)
 
-![event and signup form](https://user-images.githubusercontent.com/84447603/125380020-79e4e200-e389-11eb-9606-297003991953.jpeg)
-
-![gallery and our ethos](https://user-images.githubusercontent.com/84447603/125380014-781b1e80-e389-11eb-8f73-29d13fc73ef7.jpeg) 
 
 # Design
 **colour scheme**
-<img width="1431" alt="Screenshot 2021-07-11 at 21 18 25" src="https://user-images.githubusercontent.com/84447603/125208947-8e43b480-e28d-11eb-9db0-ebfa60d9ff7f.png">
-The three main colours used are blue, white and a red-orange shade. I felt these colours really compliment one another and the colours together have a very alluring effect. Blue is a naturally calming colour and it is soothing so it makes the user feel relaxed upon arrivial to the site. 
+The colour scheme includes turquoise and yellow as these are vibrant colours that stand out.
 
 # Typography 
-Open Sans is used with a back up of Sans Serif (the reason for the backup: if for any reason the font isn’t being imported correctly to the site). The reason this font was chosen is because it is very easily legible and aesthetically pleasing. 
-
-<img width="612" alt="Screenshot 2021-07-13 at 03 59 50" src="https://user-images.githubusercontent.com/84447603/125383096-cb43a000-e38e-11eb-9a0c-706b1fb94d67.png">
+Knewave is used with a back up of Sans Serif (the reason for the backup: if for any reason the font isn’t being imported correctly to the site). The reason this font was chosen is because it has a playful feel to it which suits as it is a game site. 
 
 # Imagery 
-Throughout the website there are an array of images all based around fashion for example catwalk fashion images, images of clothing rails and images of people who attended "past events".
-The reason I went for the imagery used is to capture the visitors attention. On **our ethos** page, each picture reflects the topic being discussed for example cost with an image of a money bank to reflect savings. Images are easier to process than reading words of text so I feel the images really enhance the website and add a fashionable aspect. As John Medina said
->Hear a piece of information, and three days later you’ll remember 10% of it. Add a picture, and you’ll remember 65%
+The images on the back of the cards is of a turquoise card with a yellow heart (following the colour scheme). The images of the animals are fun and vibrant. 
 
-<img width="802" alt="Screenshot 2021-07-13 at 04 01 32" src="https://user-images.githubusercontent.com/84447603/125383230-0645d380-e38f-11eb-83b6-4bf3239976f8.png">
+<img width="215" alt="Screenshot 2021-08-21 at 01 14 20" src="https://user-images.githubusercontent.com/84447603/130304197-bae6cbfd-6bb5-4738-8d07-2f13e8840267.png">. 
 
 # FEATURES
 
-### Home Page
-1. Logo
-* The logo name is a key aspect to the website as it provides the user with the name of the company, getting your brand name out there (this is a crucial aspect for any business). 
-* For the user: Allows the user to know the name of the company. 
-* For the site owner: Getting the company name out there. 
+### Landing page
 
-<img width="512" alt="Screenshot 2021-07-13 at 04 02 47" src="https://user-images.githubusercontent.com/84447603/125383364-342b1800-e38f-11eb-8f36-cd22f50831c3.png">
+1. The logo and welcome paragrpah
+* For the user: Allows the user to know what the game is and what the game is called.
+* For the company: Spreads the name of "FLIP-IT".
 
-1. Navigation Bar
+2. Time (60 seconds)
+* For the user: tells the user how much time they will have to play.
 
-* The Navigation bar is seen on all 5 pages of the website.
-* Allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the back button (this line is taking from the README sample) 
-* For the user: Prioritises information for the user that is easily accessible and simple to understand.
-* For the site owner : Allows easy navigation and sections off pages to allow for specific information to be shared. 
+3. The card game itself
+* For the user: allows the user to play the game, activates the timer to begin when card is flipped, activates a modal to appear if user has won or not and how many cards are flipped (so the user can keep track).
 
-<img width="738" alt="Screenshot 2021-07-13 at 04 03 35" src="https://user-images.githubusercontent.com/84447603/125383445-4f962300-e38f-11eb-826d-bc49f2cb62be.png">
+4. Game Rules
+* Once clicked brings user to an overlay, the reason I choose an overlay was to make it easier for the user to read the rules in a simply setting.
+* For the user: easy to read and understand, can click anywhere and will be brought straight back to the game.
 
-1. Landing Page image
-* A fashion image is used to emphasis a fashion event, the white and mustard clothing fit well with the colour theme. 
-* For the user: Allows the user to see this is a brand related to fashion. 
-* For the company: Emphasises a fashion event. 
-
-<img width="1418" alt="Screenshot 2021-07-13 at 04 05 13" src="https://user-images.githubusercontent.com/84447603/125383589-8b30ed00-e38f-11eb-911c-cad7776360b4.png">
-
-1. Our Story
-* This provides information about SWAP SHOP, what it is, how it works and why you would want to swap.
-* For the user: Allows the user to understand what SWAP SHOP is and a brief intro to how it works. 
-* For the company: Provides information about the brand. 
-
-<img width="627" alt="Screenshot 2021-07-13 at 04 06 40" src="https://user-images.githubusercontent.com/84447603/125383718-bf0c1280-e38f-11eb-9161-b8f84784834d.png">
-
-1. Second Image on home page 
-* The image beside our story of the 5 women, is a striking and powerful image, the clothing goes well with the colour scheme.  
-* For the user: Allows the user to see the female empowerment behind SWAP SHOP and that it is also a social event.
-* For the company: Shows girl power and a female owned brand.  
-
-<img width="706" alt="Screenshot 2021-07-13 at 04 08 16" src="https://user-images.githubusercontent.com/84447603/125383841-f7135580-e38f-11eb-8150-7acd938060ff.png">
-
-1. Google map shows the location pin, makes it easily accessible to understand where the location is and to find it simply. 
-
-<img width="151" alt="Screenshot 2021-07-13 at 04 08 59" src="https://user-images.githubusercontent.com/84447603/125383916-11e5ca00-e390-11eb-8523-c018abeebf22.png"> 
-
-1. Location Date and Time: Provides necessary information for upcoming event details. 
-
-2. Our Ethos page
-
-* Why Swap provides information on the benefits of one of our events and the images which go in a sequence from left to right really emphasise the words being spoken. 
-* For the user: Emphasises why they should swap and the benefits.
-* For the company: Shows the ethos behind the brand, spreads awareness of all the benefits.
-
-<img width="809" alt="Screenshot 2021-07-13 at 04 11 03" src="https://user-images.githubusercontent.com/84447603/125384136-5b361980-e390-11eb-88cc-588833567c4c.png">
-
-3. Gallery Page
-* The gallery wall shows images of past events, emphasising how fun the event is, that it is a social event and a fashion event.
-
-* For the user: Shows the user that the event is real and people from all walks of life can attend.
-* For the company: Promotes the event itself through imagery. 
-
-<img width="719" alt="Screenshot 2021-07-13 at 04 14 50" src="https://user-images.githubusercontent.com/84447603/125384485-e7484100-e390-11eb-9d91-cb106978d0e2.png">
-
-4. Event page
-* This shows the rules of the event and how it is run. On this page the landing image is mirrored as I thought it gave a great visual aesthetic.
-* For the user: Teaches them all the rules and gives an insight into the event.
-* For the company: As this page explains how the event works very simplistically it will help the company by already providing information needed to client without the client having to ask.
-
-<img width="1418" alt="Screenshot 2021-07-13 at 04 20 12" src="https://user-images.githubusercontent.com/84447603/125385006-a3097080-e391-11eb-9021-d8d1e300657b.png">
-
-5. Sign Up form
-* For the user: Allows the user to sign up very easily for an upcoming event, the box is centered in the middle of the page and there is no distractions with unneccessary excess imagery on the page.
-* For the company: Allows the company to find out how many people will be at en upcoming event.
-
-<img width="538" alt="Screenshot 2021-07-13 at 04 23 43" src="https://user-images.githubusercontent.com/84447603/125385292-21661280-e392-11eb-8eba-6b032f1419fe.png">
+5. Reset Cards
+* For the user: Shuffles the deck to allow a new variation each time, making the game fun and varied.
 
 # Technologies Used
  # Languages Used
 * HTML
 * CSS
+* Javascript
 
 # Frameworks, Libraries & Programs Used
 * Google Fonts:
-Google fonts were used to import the 'Open Sans' font into the style.css file which is used on all pages throughout the project.
-* Font Awesome:
-Font Awesome was used on all pages throughout the website to add icons for aesthetic purposes on the footer. 
+Google fonts were used to import the 'Knewave' font into the style.css file which is used on all pages throughout the project.
 * Git: 
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 (quoted from samplereadme https://github.com/Code-Institute-Solutions/SampleREADME)
@@ -273,50 +212,34 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 * GitHub is used to store the projects code after being pushed from Git. (quoted from samplereadme https://github.com/Code-Institute-Solutions/SampleREADME)
 
 # Known Bugs
-* When I send the link to my mobile device there is a gap on the right hand side of the screen on the home page with spacing and as a result not all the text lines up correctly.
-* On my mobile device the gallery page the end images are slightly cut off.
-* On my mobile device the sign up form is not centered with gapping on the right hand side.
-* I am unsure why this has happened as upon inspection it fits perfectly on an iphone se and my Lighthouse score is very high.
+* Within some of the responsive imagery when the Game Rules are clicked it appears to move the heading out of view.
+* Within some of the responsive imagery even with the change to the styling the buttons still appear more on the left side of the screen than intended in some of the models. 
 
 # Future ideas to implement on site
-* Add a fun fashion quiz to get people more involved and interact online.
-* Add another page where images of popular clothing items are included for example high waisted jeans, this would show what items are very popular and aid people to actually make a swap on the day. 
+* Upon entry to the site offer a selection of themes for the user to choose from, once the themes are chosen, the images will be different depending on the theme chosen.
 
 # CREDIT
 
-## Content
-
-### Home Page
-* Center align navigation menus/making the nav bar:
-https://www.youtube.com/watch?v=1s7p4cC5Q_g 
-* colour scheme inspiration:
-https://designshack.net/articles/trends/best-website-color-schemes/
-* How to align a map and text:
-https://stackoverflow.com/questions/5756440/aligning-google-map-with-text
-* Footer: Based on Love Running Project Code but I used different images
-footer images taken from: https://fontawesome.com/ 
+* Footer: Based on Love Running Project Code
 * Footer Copyright code: https://youtu.be/zdA3qZNH1vc 
+* Google fonts: https://fonts.google.com/specimen/Lato?query=lato#pairings
+* Inspiration how to create a grid https://www.w3schools.com/howto/howto_js_image_grid.asp
+* Inspiration for timer https://stackoverflow.com/questions/40638402/javascript-countdown-timer-with-start-stop-buttons. 
+https://stackoverflow.com/questions/5517597/plain-count-up-timer-in-javascript. 
+https://stackoverflow.com/questions/40638402/javascript-countdown-timer-with-start-stop-buttons. 
+* Button inspired by Build A Quiz App with JavaScript (Web Dev Simplified) https://www.youtube.com/watch?v=riDzcEQbX6k 
+* Code inspired by How To Refresh/Reload A Page With JavaScript by Junior Developer Central 
+ https://www.youtube.com/watch?v=5hLbCC2YPu0 
+* Code on how to match cards and data sets taken predominatly from freeCodeCamp.Org - Youtube video: "Memory Card Game-JavaScript Tutorial" https://www.youtube.com/watch?v=ZniVgo8U7ek" 
+*  Note on Fisher Yates Shuffle taken from https://bost.ocks.org/mike/shuffle/ 
+* Overlay code based on W3schools : https://www.w3schools.com/howto/howto_css_overlay.asp 
+* How to create modal based on W3school: https://www.w3schools.com/howto/howto_css_modals.asp 
 
-### Our Ethos
-* Flowing image around a text:
-https://www.youtube.com/watch?v=u7aE3WAoIcg 
-* The structure of our ethos is based around this ethos page:
-https://www.rothelabel.com/ethos/
-
-### Gallery
-* Gallery page based on Love Running Project code
-* CSS Grid Responsive Image Gallery Tutorial:
-https://www.youtube.com/watch?v=gvPyJ0rc944
-
-### Form
-* Based on Love Running Code for the form layout
-* Based on code of "How To Make Signup Form Using HTML And CSS | Create Sign Up Form In HTML CSS" Youtube video https://youtu.be/lacpTQuE9u8 
 
 ## Media 
 
 Images taken from: 
-* https://unsplash.com/
-* https://www.pexels.com 
+* https://icons8.com/icons 
 
 
 

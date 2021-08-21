@@ -1,5 +1,3 @@
-
-
 // Variables
 
 let noOfMatches = 0
@@ -18,41 +16,30 @@ let backgroundDisplay
 // Code inspired by How To Refresh/Reload A Page With JavaScript by Junior Developer Central 
 // https://www.youtube.com/watch?v=5hLbCC2YPu0 
 document.querySelector('#reload')
-
 document.querySelector('#reload').addEventListener('click', () =>
 {
-
 window.location.reload(true)
-
 })
 
 
 
 
-// code on how to match cards based on Marina Ferreira (freeCodeCamp.Org) Youtube video: "Memory Card Game-JavaScript Tutorial"
+// code on how to match cards based on (freeCodeCamp.Org) Youtube video: "Memory Card Game-JavaScript Tutorial" https://www.youtube.com/watch?v=ZniVgo8U7ek" 
 
 // Match cards by data type, same card click (prevent card getting stuck if double clicked) and lock-board//
 
 const cards = document.querySelectorAll('.flip-card')
 
-
-
-
 let hasFlippedCard = false
-
 let lockBoard = false
-
 let firstCard, secondCard
-
-
 
 
 function flipCard() {
 
-// NOTE run the clock if the user flips a card
+// runs the clock if the user flips a card
 
 clock()
-
 
 
 
@@ -62,13 +49,7 @@ if (lockBoard) return
 
 if (this === firstCard) return
 
-
-
-
 this.classList.add('flip')
-
-
-
 
 if (!hasFlippedCard) {
 
@@ -80,34 +61,17 @@ return
 
 }
 
-
-
-
 secondCard = this
-
-
-
 
 checkForMatch()
 
 }
 
-
-
-
-// NOTE: isMatch is a boolean value, not int; it can't be used to determine in the game has ended.
-
-
-
+// Checking for match
 
 function checkForMatch() {
 
 let isMatch = firstCard.dataset.framework === secondCard.dataset.framework
-
-
-
-
-// NOTE: removed ternary if statement to add additional logic
 
 if (isMatch) {
 
@@ -123,31 +87,20 @@ unflipCards()
 
 }
 
-
-
-
 if (noOfMatches === 8) {
 
 gameOn = false
 
-// alert(
+// alert, 'game over! You took ' + currentTime + ' seconds to complete the game!'
 
-// 'game over! You took ' + currentTime + ' seconds to complete the game!'
-
-// )
 
 showmodalDisplayHandler(noOfMatches)
 
 }
 
-
-
-
 console.log(noOfMatches, currentTime)
 
 }
-
-
 
 
 function disableCards() {
@@ -156,22 +109,13 @@ firstCard.removeEventListener('click', flipCard)
 
 secondCard.removeEventListener('click', flipCard)
 
-
-
-
 resetBoard()
 
 }
 
-
-
-
 function unflipCards() {
 
 lockBoard = true
-
-
-
 
 setTimeout(() => {
 
@@ -179,17 +123,11 @@ firstCard.classList.remove('flip')
 
 secondCard.classList.remove('flip')
 
-
-
-
 resetBoard()
 
 }, 600)
 
 }
-
-
-
 
 function resetBoard() {
 
@@ -199,16 +137,12 @@ function resetBoard() {
 
 }
 
-
-
-
 cards.forEach((card) => card.addEventListener('click',
 flipCard))
 
 
-
-
-// Shuffle Cards CODE FROM Youtube Mar//
+// Shuffle Cards taken from "Memory Card Game-JavaScript Tutorial" https://www.youtube.com/watch?v=ZniVgo8U7ek" //
+// Note on Fisher Yates Shuffle taken from https://bost.ocks.org/mike/shuffle/ // 
 
 ;(function shuffle() {
 
@@ -224,19 +158,9 @@ card.style.order = ramdomPos
 })()
 
 
-
-
-//Timer code inspired by stackoverflow
-
-
-
-
-// NOTE changed "var" to "let" here
+// NOTE timer code inspired by https://stackoverflow.com/questions/40638402/javascript-countdown-timer-with-start-stop-buttons
 
 let myTimer
-
-
-
 
 function clock() {
 
@@ -252,15 +176,9 @@ return
 
 }
 
-
-
-
 myTimer = setInterval(myClock, 1000)
 
 var c = 60
-
-
-
 
 function myClock() {
 
@@ -288,8 +206,7 @@ return
 
 }
 
-
-//WEBSCHOOL Rules of Game
+//Overlay code taken from https://www.w3schools.com/howto/howto_css_overlay.asp 
 
 function on() {
 
@@ -297,49 +214,13 @@ document.getElementById('overlay').style.display = 'block'
 
 }
 
-
-
-
 function off() {
 
 document.getElementById('overlay').style.display = 'none'
 
 }
 
-
-
-
-// =========================================================================
-
 // Add modals to screen
-
-// =========================================================================
-
-
-
-
-// declare the button so that we can listen for the user to click on it
-
-// const modalButton = document.querySelector('.modalDisplayButton')
-
-
-
-
-// when the user clicks on the button, the showModalHandler function will run
-
-// button.addEventListener('click', showmodalDisplayHandler)
-
-
-
-
-//=======================================================
-
-// Function that will put the modal onscreen
-
-//=======================================================
-
-
-
 
 function showmodalDisplayHandler(correctCards) {
 
@@ -350,22 +231,12 @@ return
 }
 
 
+// if all didn't go well (failed to complete game within timeline)
 
-
-// if all didn't go well
-
-//if()
-
-
-
-
-// say that the modal will be a <div> element
 
 modalDisplay = document.createElement('div')
 
 modalDisplay.className = 'modalDisplay'
-
-
 
 
 // populate the modal with text
@@ -373,9 +244,7 @@ modalDisplay.className = 'modalDisplay'
 const modalDisplayText = document.createElement('p')
 
 
-
-
-// if all went well
+// if all went well (Congratulations)
 
 if (correctCards === 8) {
 
@@ -395,22 +264,13 @@ modalDisplayText.textContent =
 
 }
 
-
-
-
 // add the text to the modalDisplay
 
 modalDisplay.append(modalDisplayText)
 
-
-
-
 // create the <button> element inside of the modalDisplay
 
 const modalDisplayButton = document.createElement('button')
-
-
-
 
 // populate and style the button
 
@@ -418,31 +278,17 @@ modalDisplayButton.textContent = 'Confirm'
 
 modalDisplayButton.className = 'modal-btn'
 
-
-
-
 // when the button is clicked, we close the modalDisplay
 
 modalDisplayButton.addEventListener('click', closemodalDisplayHandler)
-
-
-
 
 // attach the button to the modalDisplay
 
 modalDisplay.append(modalDisplayButton)
 
-
-
-
 // attach the modalDisplay to the body of the index.html page
 
 document.body.append(modalDisplay)
-
-
-
-
-// define and style the grey backgroundDisplay <div> that will sit behind the modalDisplay when its called to the screen
 
 backgroundDisplay = document.createElement('div')
 
@@ -455,23 +301,13 @@ backgroundDisplay.className = 'backgroundDisplay'
 
 backgroundDisplay.addEventListener('click', closemodalDisplayHandler)
 
-
-
-
-// attach the backgroundDisplay to the screen
-
 document.body.append(backgroundDisplay)
 
 }
 
 
+// Remove the modalDisplay from the screen
 
-
-//=======================================================
-
-// Function that removes the modalDisplay from the screen
-
-//=======================================================
 
 function closemodalDisplayHandler() {
 
@@ -483,10 +319,8 @@ backgroundDisplay.remove()
 
 // for modal to display again on screen 
 
-modalDisplay = null
+modalDisplay = null 
 
 backgroundDisplay = null
 
 }
-
-
