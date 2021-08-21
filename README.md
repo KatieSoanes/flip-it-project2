@@ -1,4 +1,6 @@
-## View live project here: PUT LINK HERE 
+## View live project here: https://katiesoanes.github.io/flip-it-project2/ 
+
+<img width="944" alt="Screenshot 2021-08-21 at 02 03 08" src="https://user-images.githubusercontent.com/84447603/130305661-82306f8b-8320-4aa9-ba2e-14eb833e3d2e.png">
 
 # FLIP IT 
 
@@ -133,6 +135,7 @@ Tested code by running through https://jshint.com/
 # Testing accessibility
 * Tested via https://wave.webaim.org/
 
+<img width="694" alt="Screenshot 2021-08-21 at 01 56 13" src="https://user-images.githubusercontent.com/84447603/130305505-8e6704ff-4c4b-4cad-9699-2e3a6e3cc6fc.png">. 
 
 
 # Testing Responsive Imagery
