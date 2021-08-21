@@ -161,7 +161,9 @@ Tested code by running through https://jshint.com/
 
 # Wireframes
 
-Below is a rough sketch I made to plan each page. 
+Below is a rough sketch I made to plan out the sections. 
+
+![thumbnail_ACE514A0-C108-4C55-899B-A2FD96C248C3](https://user-images.githubusercontent.com/84447603/130306028-bc6b4298-2181-4bc0-a575-d64974017589.jpeg) 
 
 
 
