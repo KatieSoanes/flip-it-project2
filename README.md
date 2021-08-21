@@ -133,7 +133,7 @@ Tested code by running through https://jshint.com/
 # Testing accessibility
 * Tested via https://wave.webaim.org/
 
-<img width="174" alt="Screenshot 2021-07-13 at 05 20 59" src="https://user-images.githubusercontent.com/84447603/125390080-25962e00-e39a-11eb-906e-c79fcf22ba5b.png">
+
 
 # Testing Responsive Imagery
 
@@ -141,6 +141,7 @@ Tested code by running through https://jshint.com/
 <img width="436" alt="Screenshot 2021-08-21 at 01 05 31" src="https://user-images.githubusercontent.com/84447603/130303905-63238fa2-16a2-4173-90f8-1247f4b6242a.png">. 
 <img width="379" alt="Screenshot 2021-08-21 at 01 04 39" src="https://user-images.githubusercontent.com/84447603/130303909-b612323d-e432-4676-81c7-2db8453b7863.png">. 
 <img width="398" alt="Screenshot 2021-08-21 at 01 03 58" src="https://user-images.githubusercontent.com/84447603/130303914-31d1212c-a8c2-4761-9f64-93ec0e83cc22.png">. 
+* Tested by also sending web page to different devices to ensure it works. 
 
 
 
